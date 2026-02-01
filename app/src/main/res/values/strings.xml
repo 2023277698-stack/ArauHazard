@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ArauHazard</string>
+
+    <string-array name="hazard_options">
+        <item>Pothole</item>
+        <item>Flash Flood</item>
+        <item>Broken Streetlight</item>
+        <item>Fallen Tree</item>
+        <item>Road Accident</item>
+    </string-array>
+
+</resources>

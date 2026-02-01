@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.ArauHazard" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#D32F2F</item>
+        <item name="colorPrimaryVariant">#D32F2F</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <item name="actionOverflowMenuStyle">@style/GreenMenu</item>
+    </style>
+
+    <style name="Theme.ArauHazard" parent="Base.Theme.ArauHazard" />
+
+    <style name="Theme.ArauHazard.NoActionBar" parent="Theme.ArauHazard">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="GreenMenu" parent="Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="android:popupBackground">#D32F2F</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>
