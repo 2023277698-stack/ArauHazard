@@ -50,7 +50,7 @@ public class ReportAdapter extends RecyclerView.Adapter<ReportAdapter.ReportView
 
             if (!imagePath.isEmpty()) {
                 holder.imgHazard.setVisibility(View.VISIBLE);
-                String imageUrl = "http://10.0.2.2/streetsense/uploads/" + imagePath;
+                String imageUrl = "http://10.0.2.2/arauhazard/uploads/" + imagePath;
 
                 Glide.with(holder.itemView.getContext())
                         .load(imageUrl)

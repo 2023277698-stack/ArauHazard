@@ -25,7 +25,7 @@ public class SplashActivity extends AppCompatActivity {
                 // 2. Route based on role to satisfy Server-Side vs Mobile requirements
                 if ("admin".equals(role)) {
                     // ADMINS: Redirect to the Web Application (Task 2)
-                    String webUrl = "http://10.0.2.2/streetsense/admin_view.php";
+                    String webUrl = "http://10.0.2.2/arauhazard/admin_view.php";
                     Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(webUrl));
                     startActivity(browserIntent);
                 } else {

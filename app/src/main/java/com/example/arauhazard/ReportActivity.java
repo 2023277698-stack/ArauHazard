@@ -142,7 +142,7 @@ public class ReportActivity extends AppCompatActivity {
 
     private void sendDataToServer(String name, double lat, double lng, String type) {
         // NOTE: Use your PC's IP if testing on real device, or 10.0.2.2 for emulator
-        String url = "http://10.0.2.2/streetsense/upload_image.php";
+        String url = "http://10.0.2.2/arauhazard/upload_image.php";
         String time = new SimpleDateFormat("yyyy-MM-dd HH:mm", Locale.getDefault()).format(new Date());
 
         String userAgent = System.getProperty("http.agent");

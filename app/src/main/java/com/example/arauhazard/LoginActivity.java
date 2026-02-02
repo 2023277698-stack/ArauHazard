@@ -49,7 +49,7 @@ public class LoginActivity extends AppCompatActivity {
             return;
         }
 
-        String url = "http://10.0.2.2/streetsense/login.php";
+        String url = "http://10.0.2.2/arauhazard/login.php";
         JSONObject loginData = new JSONObject();
         try {
             loginData.put("username", username);
@@ -68,7 +68,7 @@ public class LoginActivity extends AppCompatActivity {
                                 Toast.makeText(this, "Admins must use the Web Portal", Toast.LENGTH_LONG).show();
 
                                 // Optional: Automatically open the browser for them
-                                String webUrl = "http://10.0.2.2/streetsense/admin_view.php";
+                                String webUrl = "http://10.0.2.2/arauhazard/admin_view.php";
                                 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(webUrl));
                                 startActivity(browserIntent);
                             } else {

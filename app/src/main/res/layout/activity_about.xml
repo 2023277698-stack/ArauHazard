@@ -57,7 +57,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="MUHAMMAD NAZZUWWAN BIN MOHD NAZRI (202335924)\n• [Member 2 Name] ([ID])\n• [Member 3 Name] ([ID])"
+            android:text="MUHAMMAD NAZZUWWAN BIN MOHD NAZRI (202335924)\n MUHAMMAD FIRAS HAIMAN BIN TAHA (2023277698)\n MUHAMMAD MIRZA BIN AB AZIZ \n(2024271478) \n MUHAMMAD AZIB BIN AZAR \n(2024294402)"
             android:textColor="#555555"
             android:textSize="15sp"
             android:lineSpacingExtra="6dp"
@@ -75,7 +75,7 @@
             android:id="@+id/tvGithubLink"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="https://github.com/imranroslan/streetsense"
+            android:text="https://github.com/2023277698-stack/ArauHazard"
             android:textColor="#D32F2F"
             android:autoLink="web"
             android:linksClickable="true"

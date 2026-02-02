@@ -56,7 +56,7 @@ public class SignupActivity extends AppCompatActivity {
     }
 
     private void sendToDatabase(String name, String email, String password) {
-        String url = "http://10.0.2.2/streetsense/signup.php"; // Localhost for emulator
+        String url = "http://10.0.2.2/arauhazard/signup.php"; // Localhost for emulator
 
         JSONObject body = new JSONObject();
         try {

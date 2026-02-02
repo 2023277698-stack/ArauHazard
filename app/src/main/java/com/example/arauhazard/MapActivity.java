@@ -93,7 +93,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
 
             if (imagePath != null && !imagePath.isEmpty()) {
                 imgHazard.setVisibility(View.VISIBLE);
-                String imageUrl = "http://10.0.2.2/streetsense/uploads/" + imagePath;
+                String imageUrl = "http://10.0.2.2/arauhazard/uploads/" + imagePath;
 
                 // Check if we already loaded this image to avoid infinite refresh
                 boolean isLoaded = imagesLoadedMap.containsKey(imagePath) && imagesLoadedMap.get(imagePath);
@@ -149,7 +149,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
     private void loadMarkersFromServer() {
         new Thread(() -> {
             try {
-                URL url = new URL("http://10.0.2.2/streetsense/get_report.php");
+                URL url = new URL("http://10.0.2.2/arauhazard/get_report.php");
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("GET");
 
