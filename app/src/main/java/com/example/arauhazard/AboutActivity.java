@@ -25,7 +25,7 @@ public class AboutActivity extends AppCompatActivity {
         // But if you want a custom click handler for marks:
         /*
         tvGithub.setOnClickListener(v -> {
-            String url = "https://github.com/imranroslan/streetsense";
+            String url = "https://github.com/2023277698-stack/ArauHazard;
             Intent i = new Intent(Intent.ACTION_VIEW);
             i.setData(Uri.parse(url));
             startActivity(i);
